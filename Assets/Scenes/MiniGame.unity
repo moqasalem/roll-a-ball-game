@@ -2482,6 +2482,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6862313810686127198, guid: 592792237b6eb49459ba0da69fe7aa9e, type: 3}
   m_PrefabInstance: {fileID: 1675677567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1276024729
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1276024731}
+  - component: {fileID: 1276024730}
+  m_Layer: 0
+  m_Name: Unity-RecorderBindings
+  m_TagString: EditorOnly
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1276024730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276024729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a24bc7e8573847adbdf1198360b3c794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Recorder::UnityEngine.Recorder.RecorderBindings
+  m_References:
+    m_Keys:
+    - 2470278468b057c47aae90cf4fa07a37
+    m_Values:
+    - {fileID: 614404054}
+--- !u!4 &1276024731
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276024729}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1280522529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6862313810686127198, guid: 592792237b6eb49459ba0da69fe7aa9e, type: 3}
@@ -4480,3 +4529,4 @@ SceneRoots:
   - {fileID: 472282178}
   - {fileID: 234635729}
   - {fileID: 1552914634}
+  - {fileID: 1276024731}
